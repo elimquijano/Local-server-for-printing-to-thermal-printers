@@ -28,7 +28,7 @@ Para poner en marcha el servidor localmente es muy necesario ejecutar en un CMD 
 net use lpt1: "\\computername\sharedprinter" /persistent:yes
 ```
 
-##Uso
+## Uso
 
 El servicio expone una ruta /imprimir que acepta solicitudes POST con un cuerpo JSON. Los campos del JSON son:
 
